@@ -8,6 +8,6 @@ fruits.map((fruit, index) => {
 
    let li= document.createElement('li');
    ul.appendChild(li);
-   li.innerHTML= index+1 + '. ' + fruit;
+   li.innerHTML= `${index + 1}. ${fruit}`;
 
 });
